@@ -1,1 +1,1 @@
-# http-sonjiyo.github.io
+# sonjiyo.github.io
