@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap");
 :root {
   --color-bg: #fdfffd;
-  --color-grey: #d1d1d1;
-  --color-accent: #f797c7;
+  --color-grey: #979797;
+  --color-accent: #46c2b1;
   --color-white: white;
-  --color-yellow: #fbffb1;
+  --color-yellow: #d6fff5;
   --color-dark-grey: #bbb8b8;
 }
 
@@ -14,6 +14,7 @@
   border-collapse: collapse;
   font-family: "Noto Sans KR", sans-serif;
   box-sizing: border-box;
+  cursor:default;
 }
 
 a {
@@ -132,7 +133,7 @@ hr {
 }
 
 .skills > span:hover {
-  background-color: #f797c7;
+  background-color: var( --color-accent);
 }
 
 .description {
@@ -168,7 +169,7 @@ hr {
 }
 
 .myInfos > article > h6 {
-  color: var(--color-dark-grey);
+  text-align: center;
   background-color: var(--color-bg);
 }
 
@@ -234,6 +235,7 @@ address {
   color: var(--color-bg);
   text-align: center;
 }
+.project-name a{cursor: pointer;}
 
 @media screen and (max-width: 760px) {
   hr {
